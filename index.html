@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/meteorits.css">
+</head>
+
+<body>
+    <table>
+        <tbody id="meteor">
+            <th onclick="sortingData('id')">ID</th>
+            <th onclick="sortingData('mass')">Mass</th>
+            <th onclick="sortingData('name')">Name</th>
+            <th onclick="sortingData('nametype')">Nametype</th>
+            <th onclick="sortingData('recclass')">Recclass</th>
+            <th onclick="sortingData('reclat')">Reclat</th>
+            <th onclick="sortingData('reclong')">Reclong</th>
+            <th onclick="sortingData('year')">Year</th>
+           
+        </tbody>
+    </table>
+    <p>Az összes meteorit összsúlya:</p>
+    <br>
+    <p id="sumWeight"></p>
+    <p>A legkönnyebb meteorit súlya:</p>
+    <br>
+    <p id="minWeight"></p>
+    <p>A legnehezebb meteorit súlya:</p>
+    <br>
+    <p id="maxWeight"></p>
+    <p>A meteoritok súlyának átlaga</p>
+    <br>
+    <p id="avgWeight"></p>
+    <p>Hány darab meteorit csapódott be 1990-ben:</p>
+    <br>
+    <p id="sum"></p>
+    <p>Hány darab meteorit súlya legalább 10000:</p>
+    <br>
+    <p id="minWeight10000"></p>
+
+    <script src="/js/meteorits.js"></script>
+</body>
+
+</html>
